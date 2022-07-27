@@ -1,0 +1,57 @@
+$color-resultado: hsl(172, 67%, 45%);
+$color-box-resultado: hsl(183, 100%, 15%);
+$color- : hsl(186, 14%, 43%);
+$color- : hsl(184, 14%, 56%);
+$color-back-body: hsl(185, 41%, 84%);
+$color- : hsl(189, 41%, 97%);
+$color-branco: hsl(0, 0%, 100%);;
+
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body {
+    background-color: $color-back-body;
+}
+
+main {
+    height: 98vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .logo{
+        padding: 0px 50px 50px 50px;
+    }
+}
+
+.flex-container {
+    background-color: $color-branco;
+    width: 800px;
+    height: 425px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+
+    div {
+        width: 375px;
+        height: 375px;
+        border-radius: 15px;
+    }
+
+    .grid-container-1 {
+        background-color: $color-branco;
+    }
+
+    .grid-container-2 {
+        background-color: $color-box-resultado;
+    }
+}
+
+
+
