@@ -12,7 +12,7 @@ body {
 }
 
 main {
-  height: 98vh;
+  height: 97vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -29,17 +29,21 @@ main {
 }
 
 main .logo {
-  padding: 0px 50px 50px 50px;
+  padding-bottom: 20px;
 }
 
 .flex-container {
   background-color: white;
-  width: 800px;
-  height: 425px;
+  width: 425px;
+  height: 850px;
   margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -56,10 +60,29 @@ main .logo {
 }
 
 .flex-container .grid-container-1 {
+  display: -ms-grid;
+  display: grid;
   background-color: white;
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  gap: 25px;
+}
+
+.flex-container .grid-container-1 button {
+  font-size: 24px;
+  width: 175px;
+  height: 50px;
 }
 
 .flex-container .grid-container-2 {
+  display: -ms-grid;
+  display: grid;
   background-color: #00494d;
 }
 /*# sourceMappingURL=main.css.map */
