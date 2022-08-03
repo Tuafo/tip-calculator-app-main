@@ -17,31 +17,32 @@
             <img src="images/logo.svg" alt="" srcset="">
         </div>
         <div class="flex-container">
-            <div>
+            <div class="grid-container-1">
                 <label for="">Bill</label>
                 <br>
                 <input type="number" name="bill" id="input-bill">
-
                 <p>Select Tip %</p>
-                <div class="grid-container-1">
+                <div class="btn-tip">
                     <button>5%</button>
                     <button>10%</button>
                     <button>15%</button>
                     <button>25%</button>
                     <button>50%</button>
-                    <button>Custom</button>
+                    <button id="btn-color-claro">Custom</button>
                 </div>
-
                 <br><form action="">Number of People</form>
                 <input type="number" name="input-people" id="input-people">
+                
+                </div>
 
-            </div>
-            <div class="grid-container-2">
-                Tip Amount
-                / person
-                Total
-                / person
-                <button>Reset</button>
+                
+                <div class="grid-container-2">
+                    Tip Amount
+                    / person
+                    Total
+                    / person
+                    <button>Reset</button>
+                </div>
             </div>
         </div>
     </main>
@@ -50,5 +51,7 @@
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
       Coded by <a href="#">Thiago Goulart</a>.
   </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
